@@ -5,7 +5,7 @@
 <head>
 
     <title>These are my favorite five things!</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <!-- This is a comment inside html, by the way -->
     <style>
         body {
@@ -79,11 +79,14 @@
 
 
     </style>
+    <script type="text/javascript" src="actions.js" ></script>
+
 </head>
 
 <body>
 
     <h1>These are my favorite 5! Coded by Kids HTML 1 - 4 Template Beta</h1>
+
 
     <h2>This is a list of 5 things I like: lists can be ordered and unordered</h2>
     <p>A page  I put together using HTML and CSS. <em>This text has emphasis and is wrapped around an EM tag</em>.</p>
@@ -113,7 +116,7 @@
 
     <h2>These are floated  Boxes of things I like</h2>
     <div class="container">
-    <div class="box right picture"><img src="images/penguin.png" width="250" alt="cute penguin" /></div>
+    <div class="box right picture" id="1"><img src="images/penguin.png" width="250" alt="cute penguin" /></div>
 
     <div class="box right description"><p>One: Toy mouse squeak roll over nap all day shake treat bag
 Why must they do that cough furball paw at beetle and eat it before it gets away flee in terror at cucumber discovered on floor
@@ -122,19 +125,19 @@ Cat ipsum dolor sit amet, claws in your leg. Attack feet. Lick butt and make
   on cable gnaw the corn cob.</p> </div>
     <div class="clear"></div>
 
-    <div class="box left picture"><img src="images/bee.png" width="250" alt="cute penguin" /></div>
+    <div class="box left picture" id="2"><img src="images/bee.png" width="250" alt="cute bee" /></div>
     <div class="box left description">Two</div>
     <div class="clear"></div>
 
-    <div class="box right picture"><img src="images/cat.png" width="250" alt="cute penguin" /></div>
+    <div class="box right picture" id="3"><img src="images/cat.png" width="250" alt="cute cat" /></div>
     <div class="box right description">Three</div>
     <div class="clear"></div>
 
-    <div class="box left picture"><img src="images/monkey.png" width="250" alt="cute penguin" /></div>
+    <div class="box left picture" id="4"><img src="images/monkey.png" width="250" alt="cute monkey" /></div>
     <div class="box left description">Four</div>
     <div class="clear"></div>
 
-    <div class="box right picture"><img src="images/cat.png" width="250" alt="cute penguin" /></div>
+    <div class="box right picture" id="5"><img src="images/cat.png" width="250" alt="cute cat" /></div>
     <div class="box right description">Five</div>
     <div class="clear"></div>
 </div>
@@ -144,25 +147,31 @@ Cat ipsum dolor sit amet, claws in your leg. Attack feet. Lick butt and make
 
     <h2>These are inline-block boxes of things I like</h2>
     <div class="container">
-      <div class="box inline-block  picture"><img src="images/penguin.png" width="250" alt="cute penguin" /></div>
+      <div class="box inline-block  picture" id="11"><img src="images/penguin.png" width="250" alt="cute penguin" /></div>
 
     <div class="box inline-block information">One</div>
 
-    <div class="box inline-block  picture"><img src="images/bee.png" width="250" alt="cute penguin" /></div>
+    <div class="box inline-block  picture" id="12"><img src="images/bee.png" width="250" alt="cute bee" /></div>
     <div class="box inline-block information">Two</div>
 
-    <div class="box inline-block  picture"><img src="images/cat.png" width="250" alt="cute penguin" /></div>
+    <div class="box inline-block  picture" id="13"><img src="images/cat.png" width="250" alt="cute cat" /></div>
     <div class="box inline-block information">Three</div>
 
-    <div class="box inline-block  picture"><img src="images/monkey.png" width="250" alt="cute penguin" /></div>
+    <div class="box inline-block  picture" id="14"><img src="images/monkey.png" width="250" alt="cute monkey" /></div>
     <div class="box inline-block information">Four</div>
 
-    <div class="box inline-block  picture"><img src="images/cat.png" width="250" alt="cute penguin" /></div>
+    <div class="box inline-block  picture" id="15"><img src="images/cat.png" width="250" alt="cute cat" /></div>
     <div class="box inline-block information">Five</div>
 </div>
 
-
-
+<footer><p>
+  <script type="text/javascript">
+         <!--
+  document.write("I added this sentence in the footer with JavaScript");
+  //-->
+    </script>
+</p>
+</footer>
 </body>
 
 </html>
