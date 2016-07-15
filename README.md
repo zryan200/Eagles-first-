@@ -15,6 +15,7 @@
   3. [ ] font color
   4. [ ] font size
   5. [ ] px
+  6. [ ] em and strong
 
 **Dev Tools**
   1. [ ] code editors & IDEs
