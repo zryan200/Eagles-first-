@@ -1,5 +1,7 @@
 # Level-1 / Lesson 1 / Project 1: html 1 and css 1
 
+![status: ready](https://img.shields.io/badge/status-ready-brightgreen.svg)
+
 ### Skills for this project (please check off the skills the student covered during this project):
 
 **HTML**
